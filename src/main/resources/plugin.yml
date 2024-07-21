@@ -1,0 +1,11 @@
+name: MineFRC
+version: '1.0-SNAPSHOT'
+main: me.nabdev.mineFRC.MineFRC
+api-version: '1.21'
+commands:
+  connect:
+    description: Connect to the NT Server
+    usage: /<command> robotKey [ip] [port]
+  disconnect:
+    description: Disconnect from the NT Server
+    usage: /<command>
